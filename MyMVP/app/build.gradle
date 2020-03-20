@@ -31,7 +31,8 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
     implementation "org.jetbrains.anko:anko-sdk15:0.8.3"
-    implementation "org.jetbrains.anko:anko-support-4:0.8.3"
+
+    implementation "org.jetbrains.anko:anko-common:$anko_version"
     implementation "org.jetbrains.anko:anko-appcompat-v7:0.8.3"
 
 }
